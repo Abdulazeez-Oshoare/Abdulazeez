@@ -1,22 +1,97 @@
 *{
-    background-color: transparent;
+    background-color: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    font-family: "Roboto" sans-serif;
+    outline: none;
 }
    
-section{
-    position: absolute;
-    right: 30px;
-    height: 500px;
-    width: 500px;
-    margin-top: 10rem;
-    background-color: rgb(191, 231, 231);
-}
-div{
-    border: 5px outset rgb(172, 2, 2);
-  background-color: rgb(225, 228, 230); 
-  height: 30rem;
-  flex-direction: row;
-  text-align: center;
+.first{
+    margin: 0px 0px;
+    height: 30rem;
+    flex-direction: row;
+    text-align: center;
+    border: 5px outline;
+    background-color: #f0f2f5;
+   
 
+}
+.firt{
+    margin: 20px auto;
+    padding: 20px 10px;
+    border: 5px  transparent;
+    border-radius: 15px;
+    background: white; 
+    height: 22rem;
+    width: 25rem;
+    box-shadow: inset;
+    flex-direction: row;
+    text-align: center;
+
+}
+form{
+    background: white;
+    
+}
+p{
+    padding: 10px;
+    background-color: transparent;
+    
+}
+h1{
+    font-size: 50px;
+    color: rgb(6, 105, 253);
+}
+input{
+   width: 90%;
+   height: 40px;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   background: white;
+   font-size: large;
+
+}
+input.btn{
+    outline: transparent;
+    background-color: rgb(6, 105, 253)
+}
+h6{
+    color:  rgb(6, 105, 253);
+    background: transparent;
+    font-size: large;
+}
+
+.second{
+    margin: 0;
+    padding: 0;
+    background: rgb(228, 227, 227);
+    height: 10.99rem;
+    flex-direction: row;
+    text-align: center;
+  
+    
+}
+
+.second h6{
+    color: grey;
+    font-size: smaller;
+}
+input.btn1{
+    outline: transparent;
+    background-color: rgb(30, 214, 30);   
+}
+.second a{
+    color: gray;
+    font-size: small;
+}
+.second a:hover{
+text-decoration: underline;
+}
+
+.foot{
+ padding: 10px; 
+ 
+  
 }
